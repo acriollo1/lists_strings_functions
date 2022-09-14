@@ -2,7 +2,14 @@
 # coding: utf-8
 
 # # Objectives Week 4
-# 
+# string manipulation 
+text = "ABCDEFJHIJKLMNOPQR"
+#substring??
+fragment = text[::3]
+print(fragment.lower)
+
+
+
 # 1. Understand lists in python programming, 
 # 2. list functions, 
 # 3. tuples, 
