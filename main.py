@@ -168,53 +168,18 @@ print(multiDimen[0][0])
 
 # In[ ]:
 
-
-#how do we recognize a function????
-
-#.remove()
-
-
-# In[ ]:
-
-
-#.append()
-
-
-# In[ ]:
-
-
-#.pop()
-
-
-# In[ ]:
-
-
-#.sort()
-#.reverse()
-
-
-# In[2]:
-
-
-#.insert(index, value)
-
-
-# In[ ]:
-
-
-#.index(value)
-
-
-# In[ ]:
-
-
-#.extend()
-
-
-# In[ ]:
-
-
-#.copy()
+avengers = ["hawkeye", "hulk", "iron man", "shang chi", "black panther", "capAmer"]
+guardiansOfGalaxy = ["drax", "rocket", "groot", "starlord", "gamora"]
+newList = avengers + guardiansOfGalaxy
+print(newList)
+newList.append("Tom")
+newList.append("Mini")
+print(newList)
+newList.reverse() 
+print(newList)
+newList.remove("gamora")
+print(newList)
+print(newList.index("drax"))
 
 
 # #Tuples
